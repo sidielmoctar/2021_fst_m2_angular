@@ -1,16 +1,26 @@
-<h2>Les etudiants de M2</h2>
+<div class="row mb-3 mt-3">
+  <div class="col-12 text-center">
+    <h2>Les etudiants de M2</h2>
 
-le nombre des étudiants est {{ nbrEtudiants }}
+    le nombre des étudiants est {{ nbrEtudiants }}
+  </div>
+</div>
 
-<table>
-    <tr>
+<div class="row">
+  <div class="col"></div>
+  <div class="col-8">
+    <table class="table table-bordered table-striped">
+      <tr>
         <th>Nom</th>
         <th>Age</th>
-    </tr>
-    <tr *ngFor="let etudiant of etudiants">
+      </tr>
+      <tr *ngFor="let etudiant of etudiants">
         <td>
-            {{etudiant.name}}
-            {{etudiant.age}}
+          {{ etudiant.name }}
         </td>
-    </tr>
-</table>
+        <td>{{ etudiant.age }}</td>
+      </tr>
+    </table>
+  </div>
+  <div class="col"></div>
+</div>
