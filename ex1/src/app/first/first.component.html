@@ -14,14 +14,12 @@
         <th>Nom</th>
         <th>Age</th>
       </tr>
-      <ng-container *ngFor="let etudiant of etudiants">
-        <tr *ngIf="etudiant.age > 21">
-          <td>
-            {{ etudiant.name }}
-          </td>
-          <td>{{ etudiant.age }}</td>
-        </tr>
-      </ng-container>
+      <tr *ngFor="let etudiant of etudiants | after21">
+        <td>
+          {{ etudiant.name }}
+        </td>
+        <td>{{ etudiant.age }}</td>
+      </tr>
     </table>
   </div>
   <div class="col"></div>

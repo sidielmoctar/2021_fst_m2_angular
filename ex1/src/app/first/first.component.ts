@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { DataService } from '../data.service';
+import { DataService, IStudent } from '../data.service';
 
 @Component({
   selector: 'app-first',
@@ -8,7 +8,7 @@ import { DataService } from '../data.service';
 })
 export class FirstComponent implements OnInit {
   nbrEtudiants = 0;
-  etudiants : any[] = [];
+  etudiants : IStudent[] = [];
   constructor(private data : DataService) { }
 
   ngOnInit(): void {

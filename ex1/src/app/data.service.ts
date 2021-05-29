@@ -31,7 +31,12 @@ export class DataService {
 
   constructor() {}
 
-  getStudent(): any[] {
+  getStudent(): IStudent[] {
     return this.students;
   }
+}
+
+export interface IStudent {
+  name : string;
+  age : number;
 }
