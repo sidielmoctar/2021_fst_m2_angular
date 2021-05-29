@@ -1,0 +1,15 @@
+Group 1 : 
+- gestion des consultations dans cabinet medical
+
+Group 2 : 
+- gestion des hospitalisations dans clinique
+
+Group 3: 
+- gestion analyses dans laboratoire
+
+Group 4 : 
+
+- gestion des résulats des examens dans Lycée
+
+Group 5 :
+- gestion des ventes des médicament pharmacie
