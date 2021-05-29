@@ -1,0 +1,9 @@
+Exercice 1:
+- right click on app 
+- open terminal
+- create component first : via angular CLI
+ ng g c first
+- create service data : ng g s data
+- use component first in app component
+- create method getStudent in data service and return
+ student list and display student number in first component
