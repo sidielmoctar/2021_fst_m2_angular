@@ -8,10 +8,12 @@ import { DataService } from '../data.service';
 })
 export class FirstComponent implements OnInit {
   nbrEtudiants = 0;
+  etudiants : any[] = [];
   constructor(private data : DataService) { }
 
   ngOnInit(): void {
     this.nbrEtudiants = this.data.getStudent().length;
+    this.etudiants = this.data.getStudent();
   }
 
 }

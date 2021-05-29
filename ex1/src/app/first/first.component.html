@@ -1,3 +1,16 @@
 <h2>Les etudiants de M2</h2>
 
 le nombre des étudiants est {{ nbrEtudiants }}
+
+<table>
+    <tr>
+        <th>Nom</th>
+        <th>Age</th>
+    </tr>
+    <tr *ngFor="let etudiant of etudiants">
+        <td>
+            {{etudiant.name}}
+            {{etudiant.age}}
+        </td>
+    </tr>
+</table>

@@ -17,6 +17,18 @@ export class DataService {
       name: 'Amadou',
       age: 21,
     },
+    {
+      name: 'Fatimetou',
+      age: 22,
+    },
+    {
+      name: 'Aicha',
+      age: 24,
+    },
+    {
+      name: 'Sidi',
+      age: 25,
+    },
   ];
 
   constructor() {}

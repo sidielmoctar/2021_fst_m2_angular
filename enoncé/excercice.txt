@@ -7,3 +7,11 @@ Exercice 1:
 - use component first in app component
 - create method getStudent in data service and return
  student list and display student number in first component
+ 
+Exercice 2: 
+- display students in html table
+- display only students that have 21 year at least
+
+Exercice 3:
+-add bootstrap and use bootstrap table class in our students
+table 
