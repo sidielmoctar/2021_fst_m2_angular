@@ -1,28 +1,27 @@
 import { Injectable } from '@angular/core';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class DataService {
-
   students = [
     {
-      name : 'Ali',
-      age : 20
+      name: 'Ali',
+      age: 20,
     },
     {
-      name : 'Oumar',
-      age : 22
+      name: 'Oumar',
+      age: 22,
     },
     {
-      name : 'Amadou',
-      age : 21
-    }
-  ]
+      name: 'Amadou',
+      age: 21,
+    },
+  ];
 
-  constructor() { }
+  constructor() {}
 
-  getStudent() : any[] {
+  getStudent(): any[] {
     return this.students;
   }
 }
