@@ -15,3 +15,8 @@ Exercice 2:
 Exercice 3:
 -add bootstrap and use bootstrap table class in our students
 table 
+
+Exercice 4 :
+- Ajouter un interface IStudent (name, age)
+- Créer un pipe pour filter les étudiant de moins 21
+- Créer directive pour colorer les tr des étudiants de mois 21
