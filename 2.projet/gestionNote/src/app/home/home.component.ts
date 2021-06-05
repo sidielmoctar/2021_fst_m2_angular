@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {AuthService} from "../auth.service";
+import {TypeAlert} from "../enum/type-alert";
 
 @Component({
   selector: 'app-home',
@@ -8,6 +9,7 @@ import {AuthService} from "../auth.service";
 })
 export class HomeComponent implements OnInit {
 
+  typeAlert = TypeAlert;
   constructor() { }
 
   ngOnInit(): void {

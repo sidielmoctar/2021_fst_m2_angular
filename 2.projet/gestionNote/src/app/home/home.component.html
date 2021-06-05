@@ -4,6 +4,10 @@
   </div>
   <div class="col-10">
     <app-nav-bar></app-nav-bar>
+
+    <app-alert-factory [msg]="'message dpuis home'"
+                       [typeAlert]="typeAlert.DANGER"></app-alert-factory>
+
     <router-outlet></router-outlet>
   </div>
 </div>
