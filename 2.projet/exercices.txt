@@ -1,0 +1,7 @@
+1 - Créer deux composants auth et home
+
+auth pour la page d'authentification: 
+formulaire (login et mot de passe avec bouton enregistrer)
+la page d'authentification doit avoir un plus 
+du formulaire le titre de l'application en haut à gauche
+le clic sur enregistrer nous ramène vers la page home
