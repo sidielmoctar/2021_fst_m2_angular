@@ -5,6 +5,7 @@ import {SideBarComponent} from './side-bar/side-bar.component';
 import { AlertSuccessComponent } from './alert-success/alert-success.component';
 import { AlertDangerComponent } from './alert-danger/alert-danger.component';
 import { AlertFactoryComponent } from './alert-factory/alert-factory.component';
+import {CommunModule} from "../commun/commun.module";
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { AlertFactoryComponent } from './alert-factory/alert-factory.component';
     AlertFactoryComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    CommunModule
   ]
 })
 export class ComponentsModule {

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "prenom": "Med",
+    "nom": "Mahmoud",
+    "login": "med123",
+    "mdp": "123",
+    "email": "med@test.com"
+  },
+  {
+    "id": 2,
+    "prenom": "Fatou",
+    "nom": "ISSA",
+    "login": "med123",
+    "mdp": "123",
+    "email": "fatou@test.com"
+  },
+  {
+    "id": 3,
+    "prenom": "Aziz",
+    "nom": "Galy",
+    "login": "med123",
+    "mdp": "123",
+    "email": "aziz@test.com"
+  },
+  {
+    "id": 4,
+    "prenom": "Haroun",
+    "nom": "ALI",
+    "login": "med123",
+    "mdp": "123",
+    "email": "ali@test.com"
+  },
+  {
+    "id": 5,
+    "prenom": "Edje",
+    "nom": "JEDOU",
+    "login": "med123",
+    "mdp": "123",
+    "email": "edje@test.com"
+  }
+]
