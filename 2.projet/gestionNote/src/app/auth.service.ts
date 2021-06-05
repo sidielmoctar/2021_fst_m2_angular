@@ -14,6 +14,6 @@ export class AuthService {
   }
 
   logOut() {
-    this.router.navigateByUrl("login");
+    this.router.navigateByUrl("");
   }
 }

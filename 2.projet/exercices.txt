@@ -14,3 +14,9 @@ le home component est constitué :
 navbar component
 sideBar component
 et router outlet qui héberge les sous route de home
+
+3 - Ajouter au components module
+	success message component: 
+	qui reçoit un message en input et l'affiche 
+	dans une alarte
+	de même pour danger message
